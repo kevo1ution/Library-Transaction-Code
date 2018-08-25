@@ -1,18 +1,15 @@
-Homework 5: Library System (STL transaction and polymorphism)
-Author: Kevin Tang <kevin26428@gmail.com>
-Course: CSCE1040.001
+Library System (STL transaction and polymorphism)
 
 README:
 
 compile instructions-
-to compile this program do "g++ *.cpp"
+to compile this program do "g++ CPP/*.cpp"
  *Note that when you compile this program, it is best if your terminal/putty is in full screen for ideal user interface
 
-Grading shortcuts-
-I created a function for grading purposes to see if the due dates work properly on my program. I talked with Dr. Keathly
-and he told me it would be helpful for the graders to include this function. The function can manually change the due
-date of any book in the library system as long as you have the book ID. Although this can be easily done in the load 
-file, I don't want to cause confusion.
+
+Admin shortcuts-
+I created an admin panel to allow for direct changes to data stored in the library data files.
+This can change due dates of books, which books are checked out to who, etc.
 
 Important parameters-
  >A patron cannot checkout more than 5 items
